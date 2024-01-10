@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Gerenciamento de Equipamentos</title>
+		<link rel="stylesheet" href="/src/CSS/styles.css" />
+	</head>
+	<body>
+		<div class="container">
+			<h1>Gerenciamento de Equipamentos</h1>
+			<a href="cadastroEquipamento.html">Cadastrar Equipamento</a>
+			<a href="/index.html">Menu Principal</a>
+			<div>
+				<label for="searchInput">Buscar Equipamento:</label>
+				<input type="text" id="searchInput" oninput="searchEquipamento()" />
+			</div>
+			<table id="equipamentoTable">
+				<thead>
+					<tr>
+						<th>ID</th>
+						<th>Nome</th>
+						<th>Marca</th>
+						<th>Descrição</th>
+						<th>Codigo</th>
+						<th>Valor</th>
+						<th>Setor</th>
+						<th>Atualizar</th>
+						<th>Excluir</th>
+					</tr>
+				</thead>
+				<tbody id="equipamentoList"></tbody>
+			</table>
+		</div>
+		<script src="/src/JS/Equipamento/mainEquipamento.js"></script>
+	</body>
+</html>

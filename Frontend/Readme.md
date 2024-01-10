@@ -126,6 +126,4 @@ Lembre-se de que para as requisições diretas (como via Insomnia, Postman ou Cu
 
 ## Formulários
 
-![Imagem](imagens/Cadastro.png)
-![Imagem](imagens/Listar-Todos.png)
-![Imagem](imagens/Listar-Busca.png)
+![Exemplo de Imagem](/imagens/exemplo.png)

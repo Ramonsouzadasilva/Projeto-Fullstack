@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Gerenciamento de Setores</title>
+		<link rel="stylesheet" href="/src/CSS/styles.css" />
+	</head>
+	<body>
+		<div class="container">
+			<h1>Gerenciamento de Setores</h1>
+			<a href="cadastro.html">Cadastrar Setor</a>
+			<a href="/index.html">Menu Principal</a>
+			<div>
+				<label for="searchInput">Buscar Setor:</label>
+				<input type="text" id="searchInput" oninput="searchSetor()" />
+			</div>
+			<table id="setorTable">
+				<thead>
+					<tr>
+						<th>ID</th>
+						<th>Nome</th>
+						<th>Código</th>
+						<th>Atualizar</th>
+						<th>Excluir</th>
+					</tr>
+				</thead>
+				<tbody id="setorList"></tbody>
+			</table>
+		</div>
+		<script src="/src/JS/Setor/main.js"></script>
+	</body>
+</html>
